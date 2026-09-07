@@ -1,14 +1,9 @@
-SITE PAULO HENRIQUE CONTADOR
+SITE APROVADO - PAULO HENRIQUE CONTADOR
 
-1. Abra index.html no navegador para visualizar.
-2. Sua logomarca já foi inserida.
-3. Sua foto profissional já foi inserida na área 'Sobre'.
-4. Os botões de WhatsApp estão configurados para (63) 99272-7190.
-5. E-mail configurado: paulohenriquesantana58@gmail.com.
-6. O site pode ser publicado em hospedagens como Hostinger, Locaweb, Vercel, Netlify ou GitHub Pages.
+Envie para a raiz do repositório GitHub Pages:
+- index.html
+- estilo.css
+- script.js
+- pasta assets inteira
 
-7. Instagram: @paulohenriquecontador_ - link direto configurado no site.
-
-8. Avaliações Google: https://share.google/py0oQSPP19scIvGgH - link direto configurado no site.
-
-9. Depoimentos reais do Google inseridos a partir dos prints fornecidos pelo proprietário.
+Substitua os arquivos antigos pelos novos e confirme as alterações. O GitHub Pages atualiza normalmente em alguns minutos.
