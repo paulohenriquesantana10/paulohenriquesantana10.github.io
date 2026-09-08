@@ -64,3 +64,25 @@
 .service-grid p{font-size:13px;line-height:1.65;flex:1;margin-bottom:20px}
 .service-grid a{font-size:12px;font-weight:700;padding:11px 22px}
 @media(max-width:850px){.logo{width:205px}.hero{height:520px}.hero-copy{width:100%;padding:25px 20px}.hero-copy h1{font-size:34px}.hero-person{right:0;height:290px;width:230px;opacity:.35}.service-grid{grid-template-columns:1fr}.service-grid article{min-height:0}}
+
+/* AJUSTE FINAL DO HERO: foto preenche toda a metade direita e sem CTA interno */
+.hero-person{
+  right:calc((100vw - 100%)/-2)!important;
+  bottom:0!important;
+  top:0!important;
+  width:50vw!important;
+  height:100%!important;
+  border-radius:0!important;
+  overflow:hidden!important;
+}
+.hero-person img{
+  width:100%!important;
+  height:100%!important;
+  object-fit:cover!important;
+  object-position:center 18%!important;
+}
+.hero-wa{display:none!important}
+@media(max-width:850px){
+  .hero-person{right:0!important;top:auto!important;bottom:0!important;width:46%!important;height:100%!important;opacity:.30}
+  .hero-person img{object-position:center top!important}
+}
