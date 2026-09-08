@@ -1,0 +1,9 @@
+SITE APROVADO - PAULO HENRIQUE CONTADOR
+
+Envie para a raiz do repositório GitHub Pages:
+- index.html
+- estilo.css
+- script.js
+- pasta assets inteira
+
+Substitua os arquivos antigos pelos novos e confirme as alterações. O GitHub Pages atualiza normalmente em alguns minutos.
