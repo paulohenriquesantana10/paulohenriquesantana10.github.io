@@ -231,3 +231,60 @@
   .hero-point strong{font-size:13px!important}
   .point-icon{width:32px;min-width:32px;height:32px;font-size:24px}
 }
+
+/* WhatsApp flutuante: efeito de nova notificacao */
+.float-wa{
+  overflow:visible;
+  transform-origin:50% 85%;
+  animation:wa-notification-shake 6s ease-in-out infinite;
+}
+.float-wa::after{
+  content:"1";
+  position:absolute;
+  top:-5px;
+  right:-4px;
+  min-width:20px;
+  height:20px;
+  padding:0 5px;
+  border-radius:999px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#e53935;
+  color:#fff;
+  border:2px solid #fff;
+  font:800 11px/1 Manrope,Arial,sans-serif;
+  box-shadow:0 3px 10px rgba(0,0,0,.22);
+  animation:wa-badge-pop 6s ease-in-out infinite;
+}
+.float-wa::before{
+  content:"";
+  position:absolute;
+  inset:-1px;
+  border:2px solid rgba(37,211,102,.55);
+  border-radius:50%;
+  pointer-events:none;
+  animation:wa-notification-ring 6s ease-out infinite;
+}
+@keyframes wa-notification-shake{
+  0%,2%,4%,6%,8%,10%,100%{transform:rotate(0deg) scale(1)}
+  1%{transform:rotate(-8deg) scale(1.04)}
+  3%{transform:rotate(8deg) scale(1.04)}
+  5%{transform:rotate(-7deg) scale(1.04)}
+  7%{transform:rotate(7deg) scale(1.04)}
+  9%{transform:rotate(-4deg) scale(1.02)}
+}
+@keyframes wa-badge-pop{
+  0%,10%,100%{transform:scale(1)}
+  2%{transform:scale(1.28)}
+  5%{transform:scale(.92)}
+  8%{transform:scale(1.12)}
+}
+@keyframes wa-notification-ring{
+  0%,10%,100%{opacity:0;transform:scale(1)}
+  1%{opacity:.8;transform:scale(1)}
+  8%{opacity:0;transform:scale(1.55)}
+}
+@media (prefers-reduced-motion: reduce){
+  .float-wa,.float-wa::before,.float-wa::after{animation:none!important}
+}
