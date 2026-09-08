@@ -48,3 +48,19 @@
 .back-top:hover{background:#1a8d53;opacity:1!important}
 @media(max-width:1100px){.footer-premium-grid{grid-template-columns:1fr 1fr;gap:42px 70px}.footer-brand-premium{max-width:390px}.footer-logo-lockup{max-width:320px}}
 @media(max-width:700px){.footer-premium .footer-shell{width:min(92%,620px);padding-top:34px}.footer-premium-grid{grid-template-columns:1fr;gap:30px}.footer-brand-premium{text-align:left;max-width:none}.footer-logo-lockup{margin-left:0;max-width:290px}.footer-social-premium{justify-content:flex-start}.footer-contador-word{justify-content:flex-start}.footer-column-premium h3,.footer-contact-premium h3{margin-bottom:16px!important}.footer-premium-bottom{padding:18px 0;min-height:0;flex-direction:column;align-items:flex-start}.footer-bottom-right{width:100%;justify-content:space-between;gap:16px}.contact-row{grid-template-columns:46px minmax(0,1fr)}.contact-icon{width:46px;height:46px}.contact-icon svg{width:25px;height:25px}}
+/* Ajustes aprovados - 07/09/2026 */
+.logo{width:300px;max-height:84px;object-fit:contain;object-position:left center}
+.hero{height:500px}
+.hero-inner{align-items:center}
+.hero-copy{padding-left:0;width:55%}
+.hero-copy h1{font-size:48px}
+.hero-copy p{font-size:16px;margin-bottom:28px}
+.hero-wa{background:#078a4b;color:#fff!important;padding:15px 27px;display:inline-flex;align-items:center;gap:8px}
+.hero-person{right:0;bottom:0;height:475px;width:390px;border-radius:8px 8px 0 0}
+.arrow,.dots{display:none!important}
+.service-grid{grid-template-columns:repeat(3,1fr);gap:24px 28px}
+.service-grid article{min-height:330px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:34px 28px}
+.service-grid h3{margin:24px 0 10px}
+.service-grid p{font-size:13px;line-height:1.65;flex:1;margin-bottom:20px}
+.service-grid a{font-size:12px;font-weight:700;padding:11px 22px}
+@media(max-width:850px){.logo{width:205px}.hero{height:520px}.hero-copy{width:100%;padding:25px 20px}.hero-copy h1{font-size:34px}.hero-person{right:0;height:290px;width:230px;opacity:.35}.service-grid{grid-template-columns:1fr}.service-grid article{min-height:0}}
