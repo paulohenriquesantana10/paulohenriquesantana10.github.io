@@ -13,3 +13,26 @@
 .footer-bottom{border-top:1px solid rgba(255,255,255,.2);min-height:58px;display:flex;align-items:center;justify-content:space-between;gap:25px}.footer-bottom span{color:#dbece3;font-size:11px;margin:0}
 .site-footer [data-wa]{display:flex;align-items:center}.site-footer [data-wa] .wa-icon{margin-right:7px}
 @media(max-width:850px){.site-footer .footer-grid{grid-template-columns:1fr;gap:26px}.footer-bottom{padding:16px 0;min-height:auto;align-items:flex-start;flex-direction:column;gap:5px}.site-footer .footer-brand p{max-width:100%}}
+/* Rodapé premium - versão aprovada */
+.site-footer{background:linear-gradient(90deg,#004b2b 0%,#005532 55%,#00482a 100%);padding:54px 0 0}
+.site-footer .premium-footer{display:grid;grid-template-columns:1.15fr .8fr 1.2fr 1.45fr;gap:58px;align-items:start;padding-bottom:42px}
+.site-footer .footer-brand{text-align:center}
+.site-footer .footer-logo{width:310px;max-width:100%;height:210px;object-fit:contain;object-position:center;filter:none;margin:0 auto 8px;display:block}
+.site-footer .footer-brand p{max-width:330px;margin:4px auto 18px;color:#f4fbf7;font-size:14px;line-height:1.55}
+.site-footer .footer-brand small{display:block;color:#dcece4;font-size:12px;margin-top:8px}
+.site-footer .footer-social{justify-content:center;gap:14px;margin-top:8px}
+.site-footer .footer-social a{border:0;width:46px;height:46px;margin:0;display:grid;place-items:center}
+.site-footer .social-ring{width:44px;height:44px;border:2px solid rgba(255,255,255,.9);border-radius:50%;display:grid;place-items:center;font-size:23px;color:#fff}
+.site-footer .footer-col h3{font-size:15px;letter-spacing:.05em;margin:10px 0 22px;color:#fff}
+.site-footer .footer-col>a{font-size:14px;line-height:1.4;margin:0 0 15px;color:#f7fbf9;display:block}
+.site-footer .footer-col>a:hover{opacity:.78}
+.site-footer .contact-col{padding-left:6px}
+.site-footer .contact-item{display:flex!important;align-items:flex-start!important;gap:14px;margin:0 0 18px!important;color:#fff}
+.site-footer .contact-item .contact-icon{width:48px;height:48px;min-width:48px;border-radius:50%;background:#0c7144;display:grid;place-items:center;font-size:23px;line-height:1;color:#fff;margin:0}
+.site-footer .contact-item>span:last-child{display:block;margin:0}
+.site-footer .contact-item strong{display:block;color:#fff;font-size:14px;font-weight:500;line-height:1.45}
+.site-footer .contact-item small{display:block;color:#cfe5d8;font-size:12px;line-height:1.45;margin-top:3px}
+.site-footer .premium-bottom{border-top:1px solid rgba(255,255,255,.35);min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.site-footer .premium-bottom span{font-size:12px;color:#eef7f2;margin:0}
+@media(max-width:900px){.site-footer .premium-footer{grid-template-columns:1fr 1fr;gap:34px}.site-footer .footer-brand{text-align:left}.site-footer .footer-logo{margin-left:0}.site-footer .footer-brand p{margin-left:0}.site-footer .footer-social{justify-content:flex-start}}
+@media(max-width:620px){.site-footer .premium-footer{grid-template-columns:1fr}.site-footer .footer-logo{width:260px;height:180px}.site-footer .premium-bottom{align-items:flex-start;flex-direction:column;justify-content:center;padding:18px 0}.site-footer .contact-col{padding-left:0}}
